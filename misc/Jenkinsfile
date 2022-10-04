@@ -15,3 +15,4 @@ node {
      docker.withRegistry('https://index.docker.io/v2/', 'dockerhub') {
        def app = docker.build("naama1514/nodejs-example:${commit_id}", '.').push()
      }
+   }
