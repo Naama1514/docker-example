@@ -16,3 +16,4 @@ node {
        def app = docker.build("naama1514/nodejs-example:${commit_id}", '.').push()
      }
    }
+}
